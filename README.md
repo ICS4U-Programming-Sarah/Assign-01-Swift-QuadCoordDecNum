@@ -1,1 +1,1 @@
-# Assign-01-Swift-QuadCoordDecNum
+[![SwiftLint](https://github.com/ICS4U-Programming-Sarah/Assign-01-Swift-QuadCoordDecNum/workflows/SwiftLint/badge.svg)](https://github.com/ICS4U-Programming-Sarah/Assign-01-Swift-QuadCoordDecNum/actions)
