@@ -8,7 +8,7 @@
 //
 //  Created by Sarah Andrew
 
-//  Created on 2023-02-19
+//  Created on 2023-03-07
 
 //  Version 1.0
 
@@ -114,7 +114,7 @@ if userSelector == opOne {
                 }
             } else {
                 // Display error to user.
-                print("Invalid input only!")
+                print("Invalid, valid input only!")
             }
         } else {
             // Display error to user.r
@@ -136,8 +136,10 @@ if userSelector == opOne {
         // If enters no, display below.
         if quesAns == "n" {
             print("Thanks for playing!!")
-        } else {
-            print("Invalid, please enter y or n.")
+        }
+
+        if quesAns != "y" && quesAns != "n" {
+            print("Invalid entry, please enter either y or n.")
         }
 
     } while quesAns != "y" && quesAns != "n"
